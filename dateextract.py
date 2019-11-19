@@ -3,7 +3,7 @@ import pytesseract
 import cv2
 from dateutil.parser import parse
 import re
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template,url_for
 
 import base64
 app = Flask(__name__)
