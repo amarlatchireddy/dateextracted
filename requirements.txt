@@ -20,4 +20,4 @@ pybase64==1.0.1
 regex==2019.11.1
 opencv-contrib-python==4.1.1.26
 opencv-python==4.1.1.26
-apt-get install -y libsm6 libxext6 libxrender-dev
+apt-get install libsm6 libxext6 libxrender-dev
