@@ -15,7 +15,6 @@ python-dateutil==2.8.1
 six==1.13.0
 tornado==6.0.3
 tqdm==4.38.0
-opencv-python==4.1.1.26
 pytesseract==0.3.0
 pybase64==1.0.1
 regex==2019.11.1
