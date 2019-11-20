@@ -17,7 +17,7 @@ def home():
 def process():
     #print('started')
     #imgdata = base64.b64decode(path)
-    #filename = 'some_image.jpg'  # I assume you have a way of picking unique filenames
+    #filename = 'some_image.jpg'  
     #with open(filename, 'wb') as f:
         #f.write(imgdata)
     if request.method == 'POST':
@@ -25,7 +25,7 @@ def process():
         imgdata = message
     #imgdata=request.form.value()
         imgdata = base64.b64decode(imgdata)
-        filename = 'some_image.png'  # I assume you have a way of picking unique filenames
+        filename = 'some_image.png'  
         with open(filename, 'wb') as f:
             f.write(imgdata)
 
