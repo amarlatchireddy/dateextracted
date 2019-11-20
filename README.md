@@ -1,2 +1,2 @@
 # dateextracted
-Extracting date from a base 64 string using using pytesseract and opencv
+Extracting expense date from a base 64 string using using pytesseract and opencv
